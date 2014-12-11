@@ -1,0 +1,28 @@
+{
+  "name": "express-sha",
+  "version": "1.0.0",
+  "description": "An express middleware the responds with the current git sha of HEAD",
+  "main": "index.js",
+  "dependencies": {
+    "git-sha": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJkrusinski/express-sha.git"
+  },
+  "keywords": [
+    "sha",
+    "express",
+    "middleware"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/express-sha/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/express-sha"
+}
